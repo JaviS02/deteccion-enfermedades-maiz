@@ -1,0 +1,15 @@
+names:
+- Corn_Blight
+- Corn_Common_Rust
+- Gray_Leaf_Spot
+- Healthy
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: corn-disease-odni2
+  url: https://universe.roboflow.com/buksu/corn-disease-odni2/dataset/2
+  version: 2
+  workspace: buksu
+test: ../test/images
+train: Corn-Disease--2/train/images
+val: Corn-Disease--2/valid/images
